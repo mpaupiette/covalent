@@ -26,8 +26,6 @@ cp -r deploy/platform/core src/platform/node_modules/@covalent
 ./node_modules/@angular/cli/bin/ng build covalent-dynamic-forms
 # BUILD: @covalent/highlight primary entrypoint
 ./node_modules/@angular/cli/bin/ng build covalent-highlight
-# BUILD: @covalent/http primary entrypoint
-./node_modules/@angular/cli/bin/ng build covalent-http
 # BUILD: @covalent/markdown primary entrypoint
 ./node_modules/@angular/cli/bin/ng build covalent-markdown
 # BUILD: @covalent/code-editor primary entrypoint
