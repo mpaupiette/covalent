@@ -36,7 +36,7 @@ export class TdLayoutNavComponent {
    * toolbar color option: primary | accent | warn.
    * If [color] is not set, primary is used.
    */
-  @Input() color: 'accent' | 'primary' | 'warn' = 'primary';
+  @Input() color: 'accent' | 'primary' | 'warn' | 'default' = 'primary';
 
   /**
    * navigationRoute?: string
